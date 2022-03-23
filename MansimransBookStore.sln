@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32126.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MansimransBookStore", "MansimransBookStore\MansimransBookStore.csproj", "{8B5B3B91-B303-4CD1-8297-BFBE89B6C56F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MansimransBookStore", "MansimransBookStore\MansimransBookStore.csproj", "{8B5B3B91-B303-4CD1-8297-BFBE89B6C56F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MansimransBook.DataAccess", "MansimransBook.DataAccess\MansimransBook.DataAccess.csproj", "{7A864F15-3DD1-4474-BB48-55EE3ED8E1DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MansimransBook.Models", "MansimransBook.Models\MansimransBook.Models.csproj", "{1811C9FC-766C-47F3-8E73-15D6B690D830}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MansimransBook.Utility", "MansimransBook.Utility\MansimransBook.Utility.csproj", "{FB7ABD78-E428-4676-BFFC-FF11758AFF64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{8B5B3B91-B303-4CD1-8297-BFBE89B6C56F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B5B3B91-B303-4CD1-8297-BFBE89B6C56F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B5B3B91-B303-4CD1-8297-BFBE89B6C56F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A864F15-3DD1-4474-BB48-55EE3ED8E1DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A864F15-3DD1-4474-BB48-55EE3ED8E1DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A864F15-3DD1-4474-BB48-55EE3ED8E1DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A864F15-3DD1-4474-BB48-55EE3ED8E1DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1811C9FC-766C-47F3-8E73-15D6B690D830}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1811C9FC-766C-47F3-8E73-15D6B690D830}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1811C9FC-766C-47F3-8E73-15D6B690D830}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1811C9FC-766C-47F3-8E73-15D6B690D830}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB7ABD78-E428-4676-BFFC-FF11758AFF64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB7ABD78-E428-4676-BFFC-FF11758AFF64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB7ABD78-E428-4676-BFFC-FF11758AFF64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB7ABD78-E428-4676-BFFC-FF11758AFF64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
