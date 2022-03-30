@@ -52,3 +52,6 @@ create class SD.cs in .Utility project and modify its properties
 2142- adding admin area
 2207- update to git
                 Continuing part-2 
+2240- add category.cs to .Models, change the properties
+2248- using NuGet packages, add ApplicationDbContext
+2254- update to git
