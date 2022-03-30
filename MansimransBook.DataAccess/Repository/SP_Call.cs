@@ -14,7 +14,7 @@ namespace MansimransBook.DataAccess.Repository
     {
         //access the database
         private readonly ApplicationDbContext _db;
-        private static string ConnectionString = ""; //needed to called the stored procedures
+        private static string ConnectionString = "";        //needed to called the stored procedures
         // constructor to open a SQL connection
         public SP_Call(ApplicationDbContext db)
         {

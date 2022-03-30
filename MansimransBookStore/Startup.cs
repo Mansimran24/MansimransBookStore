@@ -1,4 +1,5 @@
 using MansimransBook.DataAccess.Repository;
+using MansimransBook.DataAccess.Repository.IRepository;
 using MansimransBookStore.DataAccess.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -35,6 +36,7 @@ namespace MansimransBookStore
 
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+            
             services.AddControllersWithViews();
         }
 

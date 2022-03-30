@@ -6,7 +6,7 @@ using System.Text;
 
 namespace MansimransBook.DataAccess.Repository.IRepository
 {
-    interface IUnitOfWork : IDisposable
+    public interface IUnitOfWork 
     {
         ICategoryRepository Category { get; }
         ISP_Call SP_Call { get; }
