@@ -47,3 +47,4 @@ create a static details class called SD.cs in MansimransBook.Utility project and
 1220- tested ok
 1222- copy _ViewStart and _ViewImport and modify _ViewStart.cshtml
 -check the app
+2140- update to git
