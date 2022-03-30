@@ -1,7 +1,9 @@
-﻿Assignment 2
-Mansimran Kaur
-0786967
-2022-03-10
+﻿                        Assignment 2
+                       Mansimran Kaur
+                          0786967
+
+                         2022-03-10
+
 1620 Created a project named as "MansimransBookStore".
 Asp.Net Core MVC web app w/ individual account authentication
 -build it
@@ -13,9 +15,35 @@ Asp.Net Core MVC web app w/ individual account authentication
 1628- respo created -- confirm it
 1637- review the given code 
 1648- Download bootstarp file  and apply it to css.
-1650- Inserted bootstrap theme ,rerplace the bootstrap.css code from downloaded bootstap file
+1650- Inserted bootstrap theme, replace the bootstrap.css code from downloaded bootstap file
 1651- Change the required code in layout page
 1652- insert provided files site.css and additional scripts in layout page 
 check the app 
 tested ok 
-update to git 
+1656- update to git 
+
+                         2022-03-23
+
+1352 create three projects -- "MansimransBook.DataAccess", "MansimransBook.Models" and "MansimransBook.Utility"
+1406- Copy the Data folder and paste to MansimransBook.DataAccess project then delete the original folder
+1407 Delete the Migrations folder
+1409- Delete default Class1.cs file from all the projects
+1410- Moving Models folder into MansimransBooks.Models by deleting original folder
+1412- Modify Views/Shared/Error.cshtml file
+1417- Rename Models folder to ViewModels
+-build it
+-test it
+create a static details class called SD.cs in MansimransBook.Utility project and modify its properties
+1420- add project references to MansimransBook.Models and MansimransBook.Utility in MansimransBook.DataAccess
+-check the app
+-tested ok
+1422- update to git
+
+                    2022-03-29
+
+1216- adding a Customer area
+1218- moving HomeCustomer.cs to area's controller folder and modify it
+1219- delete the Data and Models
+1220- tested ok
+1222- copy _ViewStart and _ViewImport and modify _ViewStart.cshtml
+-check the app
