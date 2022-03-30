@@ -24,17 +24,18 @@ tested ok
 
                          2022-03-23
 
-1352 create three projects -- "MansimransBook.DataAccess", "MansimransBook.Models" and "MansimransBook.Utility"
-1406- Copy the Data folder and paste to MansimransBook.DataAccess project then delete the original folder
+1352 create three projects -- 
+--"MansimransBook.DataAccess" 
+--"MansimransBook.Models" 
+--"MansimransBook.Utility"
+1406- Copy Data folder and paste to.DataAccess project then delete the original folder
 1407 Delete the Migrations folder
 1409- Delete default Class1.cs file from all the projects
-1410- Moving Models folder into MansimransBooks.Models by deleting original folder
-1412- Modify Views/Shared/Error.cshtml file
+1410- Moving Models folder into .Models by deleting original folder
 1417- Rename Models folder to ViewModels
 -build it
 -test it
-create a static details class called SD.cs in MansimransBook.Utility project and modify its properties
-1420- add project references to MansimransBook.Models and MansimransBook.Utility in MansimransBook.DataAccess
+create class SD.cs in .Utility project and modify its properties
 -check the app
 -tested ok
 1422- update to git
@@ -48,3 +49,6 @@ create a static details class called SD.cs in MansimransBook.Utility project and
 1222- copy _ViewStart and _ViewImport and modify _ViewStart.cshtml
 -check the app
 2140- update to git
+2142- adding admin area
+2207- update to git
+                Continuing part-2 
