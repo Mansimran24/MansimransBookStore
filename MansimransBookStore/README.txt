@@ -51,9 +51,13 @@ create class SD.cs in .Utility project and modify its properties
 2140- update to git
 2142- adding admin area
 2207- update to git
+ 
+                   2022-03-29 
                   Continuing part-2 
 2240- add category.cs to .Models, change the properties
 2248- using NuGet packages, add ApplicationDbContext
+--20220330022155_AddDefaultIdentityMigration.cs
+--20220330025308_AddCategoryToDb.cs
 2254- update to git
    
                    2022-03-30
@@ -67,5 +71,18 @@ create class SD.cs in .Utility project and modify its properties
 0110- added SP_Call and did changes
 0140- create UnitOfWork
 0155- create IUnitOfWork and make cahnges
+0158- ERROR in line 39 in startup.cs file
 -tested ok
 0227- update to git
+
+                 2022-04-03
+
+0221- create Index.cshtml in Category folder
+0223- paste text and add Layout
+-tested ok
+0230- insert code in category.js
+0234- add Scripts in Index.cshtml
+0240- add actions of Upsert in CategoryController.cs
+0245- make Upsert.cshtml and paste text & Layout
+0255- created _CreateAndBackToListButton 
+0310- created _EditAndBackToListButton
