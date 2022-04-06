@@ -9,28 +9,24 @@ using System.Text;
 
 namespace MansimransBook.DataAccess.Repository
 {
-    public class CategoryRepository : Repository<Category>, ICategoryRepository
+    public class CoverTypeRepository : Repository<CoverType>, ICoverTypeRepository
     {
         private readonly ApplicationDbContext _db;
-        public CategoryRepository(ApplicationDbContext db): base(db)
+        public CoverTypeRepository(ApplicationDbContext db) : base(db)
         {
             _db = db;
         }
-        public void Update(Category category)
+        public void Update(CoverType covertype)
         {
             // use .NET LINQ to retrieve the first or default category object,
             // then pass the id as a generic entity which matches the category ID
-            var objFromDb = _db.Categories.FirstOrDefault(s => s.Id == category.Id);
+            var objFromDb = _db.Categories.FirstOrDefault(s => s.Id == covertype.Id);
             if (objFromDb != null) //save changes if not null
             {
-                objFromDb.Name = category.Name;
+                objFromDb.Name = covertype.Name;
                 _db.SaveChanges();
             }
         }
 
-        public void Update(CoverType covertype)
-        {
-            throw new NotImplementedException();
-        }
     }
 }
