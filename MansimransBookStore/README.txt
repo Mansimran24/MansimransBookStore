@@ -2,13 +2,14 @@
                        Mansimran Kaur
                           0786967
 
+                           Part-1
                          2022-03-10
 
 1620 Created a project named as "MansimransBookStore".
 Asp.Net Core MVC web app w/ individual account authentication
--build it
--create readme
--test it
+-- build it
+-- create readme
+-- test it
 1623 Confirm the app works
 1624 modify the index.csHtml
 1627 create git respo 
@@ -18,8 +19,8 @@ Asp.Net Core MVC web app w/ individual account authentication
 1650- Inserted bootstrap theme, replace the bootstrap.css code from downloaded bootstap file
 1651- Change the required code in layout page
 1652- insert provided files site.css and additional scripts in layout page 
-check the app 
-tested ok 
+-- check the app 
+-- tested ok 
 1656- update to git 
 
                          2022-03-23
@@ -33,11 +34,11 @@ tested ok
 1409- Delete default Class1.cs file from all the projects
 1410- Moving Models folder into .Models by deleting original folder
 1417- Rename Models folder to ViewModels
--build it
--test it
+-- build it
+-- test it
 create class SD.cs in .Utility project and modify its properties
--check the app
--tested ok
+-- check the app
+-- tested ok
 1422- update to git
 
                     2022-03-29
@@ -47,19 +48,21 @@ create class SD.cs in .Utility project and modify its properties
 1219- delete the Data and Models
 1220- tested ok
 1222- copy _ViewStart and _ViewImport and modify _ViewStart.cshtml
--check the app
+-- check the app
 2140- update to git
 2142- adding admin area
 2207- update to git
  
+                Continuing part-2 
                    2022-03-29 
-                  Continuing part-2 
+
 2240- add category.cs to .Models, change the properties
 2248- using NuGet packages, add ApplicationDbContext
 --20220330022155_AddDefaultIdentityMigration.cs
 --20220330025308_AddCategoryToDb.cs
 2254- update to git
-   
+
+           
                    2022-03-30
 
 0002-create Repository and IRepository
@@ -72,17 +75,21 @@ create class SD.cs in .Utility project and modify its properties
 0140- create UnitOfWork
 0155- create IUnitOfWork and make cahnges
 0158- ERROR in line 39 in startup.cs file
--tested ok
+-- tested ok
 0227- update to git
 
+               Continuing Part-3
                  2022-04-03
 
 0221- create Index.cshtml in Category folder
 0223- paste text and add Layout
--tested ok
+-- tested ok
 0230- insert code in category.js
 0234- add Scripts in Index.cshtml
 0240- add actions of Upsert in CategoryController.cs
 0245- make Upsert.cshtml and paste text & Layout
 0255- created _CreateAndBackToListButton 
 0310- created _EditAndBackToListButton
+-- tested ok
+-- app run
+0406- update to git

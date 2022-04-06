@@ -9,10 +9,10 @@ using MansimransBook.DataAccess.Repository.IRepository;
 namespace MansimransBookStore.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    public class CategoryController : Controller
+    public class CoverTypeController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
-        public CategoryController(IUnitOfWork unitOfWork)
+        public CoverTypeController(IUnitOfWork unitOfWork)
         {
 
             _unitOfWork = unitOfWork;
@@ -25,15 +25,15 @@ namespace MansimransBookStore.Areas.Admin.Controllers
 
         public IActionResult Upsert(int? id)  //action method for Upsert
         {
-            Category category = new Category();   // using MansimransBook.Models;
+            CoverType covertype = new CoverType();   // using MansimransBook.Models;
             if(id == null)
             {
                 // this is for create
-                return View(category);
+                return View(covertype);
             }
             // this for the edit
-            category = _unitOfWork.Category.Get(id.GetValueOrDefault());
-            if(category == null)
+            covertype = _unitOfWork.CoverType.Get(id.GetValueOrDefault());
+            if(covertype == null)
             {
                 return NotFound();
             }
@@ -43,23 +43,23 @@ namespace MansimransBookStore.Areas.Admin.Controllers
         //use HTTP POST to define the post-action method
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Upsert(Category category)
+        public IActionResult Upsert(CoverType covertype)
         {
             if(ModelState.IsValid)    //checks all validations in the model(e.g. Name Required) to increase security
             {
-                if(category.Id == 0)
+                if(covertype.Id == 0)
                 {
-                    _unitOfWork.Category.Add(category);
+                    _unitOfWork.CoverType.Add(covertype);
                     _unitOfWork.Save();
                 }
                 else
                 {
-                    _unitOfWork.Category.Update(category);
+                    _unitOfWork.CoverType.Update(covertype);
                 }
                 _unitOfWork.Save();
                 return RedirectToAction(nameof(Index));     // to see all the categories
             }
-            return View(category);
+            return View(covertype);
         }
 
 
@@ -69,18 +69,18 @@ namespace MansimransBookStore.Areas.Admin.Controllers
         public IActionResult GetAll()
         {
             //return NotFound();
-            var allObj = _unitOfWork.Category.GetAll();
+            var allObj = _unitOfWork.CoverType.GetAll();
             return Json(new { data = allObj });
         }
         [HttpDelete]
         public IActionResult Delete(int id)
         {
-            var objFromDb = _unitOfWork.Category.Get(id);
+            var objFromDb = _unitOfWork.CoverType.Get(id);
             if(objFromDb == null)
             {
                 return Json(new { success = false, message = "Error while deleting" });
             }
-            _unitOfWork.Category.Remove(objFromDb);
+            _unitOfWork.CoverType.Remove(objFromDb);
             _unitOfWork.Save();
             return Json(new { success = true, message = "Delete successful" });
         }
