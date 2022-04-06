@@ -54,6 +54,7 @@ create class SD.cs in .Utility project and modify its properties
 2207- update to git
  
                 Continuing part-2 
+
                    2022-03-29 
 
 2240- add category.cs to .Models, change the properties
@@ -79,6 +80,7 @@ create class SD.cs in .Utility project and modify its properties
 0227- update to git
 
                Continuing Part-3
+
                  2022-04-03
 
 0221- create Index.cshtml in Category folder
@@ -93,3 +95,25 @@ create class SD.cs in .Utility project and modify its properties
 -- tested ok
 -- app run
 0406- update to git
+
+               2022-04-05
+
+1026- add CoverTypeController.cs
+1035- make changes
+1106- added covertype files
+1115- make changes
+-- tested ok
+-- check the app
+1251- merge pull request#1
+
+              2022-04-06
+
+added migrations
+-- 20220406150749_AddCoverTypeToDb.cs
+-- 20220406152329_AddProductToDb.cs
+1131- add product files
+1135- make changes
+-- tested okk
+-- chech the app
+1200- update to git
+1210- merge pull request#2
